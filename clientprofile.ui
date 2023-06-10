@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ClientProfile</class>
+ <widget class="QWidget" name="ClientProfile">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>451</width>
+    <height>497</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>411</width>
+     <height>421</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>Profile of client number</string>
+        </property>
+       </widget>
+      </item>
+      <item alignment="Qt::AlignVCenter">
+       <widget class="QLineEdit" name="numEdit">
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QLabel" name="label_8">
+        <property name="text">
+         <string>Client's age</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QSpinBox" name="ageSpin"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QLabel" name="label_7">
+        <property name="text">
+         <string>Client's gender</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="genderBox">
+        <item>
+         <property name="text">
+          <string>M</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>F</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <item>
+       <widget class="QLabel" name="label_6">
+        <property name="text">
+         <string>Client's mariatual status</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="marBox">
+        <item>
+         <property name="text">
+          <string>Married</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Divorced</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Single</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Unknown</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_5">
+      <item>
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>Client's educational level</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="educationBox">
+        <item>
+         <property name="text">
+          <string>Educated</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Uneducated</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>High School</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>College</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Graduate</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Post-Graduate</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Doctorate</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_6">
+      <item>
+       <widget class="QLabel" name="label_10">
+        <property name="text">
+         <string>Client's income </string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="incomeBox">
+        <item>
+         <property name="text">
+          <string>Less than $40K</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>$40K - $60K</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>$60K - $80K</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>$80K - $120K</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>$120K +</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_7">
+      <item>
+       <widget class="QLabel" name="label_5">
+        <property name="text">
+         <string>Client's card category</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="cardBox">
+        <item>
+         <property name="text">
+          <string>Blue</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Silver</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Gold</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Plantinium</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_8">
+      <item>
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>Client's total revolving balance</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="balanceEdit"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_9">
+      <item>
+       <widget class="QLabel" name="label_9">
+        <property name="text">
+         <string>Client's credit limit</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="limitEdit"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_10">
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>Client's utilization ratio</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="utilEdit"/>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="okButton">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>450</y>
+     <width>100</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ОК</string>
+   </property>
+   <property name="autoDefault">
+    <bool>true</bool>
+   </property>
+   <property name="default">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancelButton">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>450</y>
+     <width>100</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cancel</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="removeButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>450</y>
+     <width>121</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Remove this client</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

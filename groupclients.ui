@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GroupClients</class>
+ <widget class="QDialog" name="GroupClients">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>646</width>
+    <height>405</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTableView" name="groupTable">
+   <property name="geometry">
+    <rect>
+     <x>245</x>
+     <y>31</y>
+     <width>361</width>
+     <height>331</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>201</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Choose category:</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="categoryBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>90</y>
+     <width>181</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Not chose</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Educated</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Doctorate</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>College</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Married</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Divorced</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Single</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>$120K +</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>$40K - $60K</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>$60K - $80K</string>
+    </property>
+   </item>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
